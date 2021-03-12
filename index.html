@@ -2,13 +2,56 @@
 <html lang="en">
     <head>
         <title>Google</title>
-        <meta charset="UTF-8"/>   
+        <meta charset="UTF-8" content="width=device-width initial-scale=1"/>   
         <!--Style-->
-        <style>
-
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            /* navbar */
+            .navbar {
+                width: auto;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
+            .nav-list {
+                display: flex;
+                list-style-type: none;
+                justify-content: flex-end;
+                width: 100%;
+            }
+            .menu-text {
+                padding-left: 15px;
+                text-decoration: none
+            }
+            .icon {
+                fill: #5f6368;
+            }
         </style>
     </head>
     <body>
+        <header>
+            <nav class="navbar">
+                <ul class="nav-list">
+                        <li>
+                            <a class="menu-text" href="#">Gmail</a>
+                        </li>
+                        <li>
+                            <a class="menu-text" href="#">Images</a>
+                        </li>
+                        <li>
+                            <a class="menu-text" href="#">Test(later svg)</a>
+                        </li>
+                        <li>
+                            <a class="menu-text" href="#">Test(later image)</a>
+                        </li>
+                </ul>
+            </nav>
+        </header>
         <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form>
             <div class="main-form"></div>

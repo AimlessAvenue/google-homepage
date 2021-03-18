@@ -49,6 +49,7 @@ a {
 }
 #account:hover {
     background-color: rgba(60,64,67,0.08);
+    transition: background 180ms ease;
 }
 #more-apps {
     padding: 8px;
@@ -59,6 +60,7 @@ a {
     background-color: rgba(60,64,67,0.08);
     border-radius: 50%;
     padding: 8px;
+    transition: background 180ms ease;
 }
 /* main */
 .biglogo {

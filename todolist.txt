@@ -1,1 +1,0 @@
-1. Remember to add Aria-label to improve accessibility - 
